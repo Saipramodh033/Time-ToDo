@@ -25,7 +25,13 @@ Unlike many complex task managers, TimeToDo doesn't want you to spend your day p
 
 ## 📸 Screenshots
 
-*(Screenshots will be added once provided)*
+| Home Screen | New Task | Timer |
+|:---:|:---:|:---:|
+| ![Home Screen](screenshots/home.jpg) | ![New Task](screenshots/new_task.jpg) | ![Timer](screenshots/timer.jpg) |
+
+| Calendar | Analytics |
+|:---:|:---:|
+| ![Calendar](screenshots/calendar.jpg) | ![Analytics](screenshots/analytics.jpg) |
 
 ## 🚀 Getting Started
 
