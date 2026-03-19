@@ -32,6 +32,23 @@ TimeToDo is built with a decoupled, modern Android architecture to ensure reliab
 - **Persistence Layer**: Powered by **Room Database**. Every second counts—literally. The app persists elapsed time frequently to ensure you never lose progress, even after a reboot.
 - **State Management**: The `ActiveTaskStore` acts as a single source of truth for the currently running task, coordinating between the Database and the Service.
 
+### 📁 Project Structure
+
+```text
+app/src/main/java/com/example/time_todo/
+├── core/
+│   └── ActiveTaskStore.kt      # Manages the lifecycle and state of the active focus task.
+├── data/
+│   └── local/                  # Room Database configuration, DAOs, and Entities.
+├── services/
+│   └── TimerService.kt        # Foreground Service handling background time-tracking.
+├── ui/
+│   ├── screens/                # Composable screens (Home, Focus, Analytics).
+│   ├── viewmodel/              # State holders exposing data to the UI via Flow.
+│   └── theme/                  # Material 3 color palettes and typography.
+└── MainActivity.kt             # Entry point of the application.
+```
+
 ## 📖 How to Use
 
 TimeToDo is designed to get you into "Action Mode" as fast as possible:
@@ -57,7 +74,7 @@ To get a local copy up and running, follow these simple steps:
 
 1. **Clone the repo**
    ```sh
-   git clone https://github.com/YOUR_USERNAME/TimeToDo.git
+   git clone https://github.com/Saipramodh033/Time-ToDo.git
    ```
 2. **Open in Android Studio**
    Open the project folder in Android Studio (Ladybug or later recommended).
