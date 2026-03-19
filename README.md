@@ -81,6 +81,4 @@ To get a local copy up and running, follow these simple steps:
 3. **Build & Run**
    Connect your Android device or start an emulator and click the "Run" button.
 
-## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
