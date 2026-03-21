@@ -13,3 +13,22 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# IDE and tool-specific directories
+.idea/
+.kotlin/
+.vscode/
+app/.idea/
+
+# Build logs (large, not needed in version control)
+build_log*.txt
+build.log
+
+# JVM heap dumps (can be very large)
+*.hprof
+
+# Temporary/scratch files
+tmp/
+
+# App-specific build output
+app/build/
